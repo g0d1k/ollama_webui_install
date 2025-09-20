@@ -1,6 +1,3 @@
-# ollama_webui_install
-Ollama &amp; Open WebUI Quick Setup for WSL/Linux
-
 Ollama & Open WebUI Quick Setup for WSL/Linux
 
 This script automates the complete setup of a local Large Language Model (LLM) environment on Debian-based Linux systems like Ubuntu. It installs Ollama, Docker, and deploys the Open WebUI in a container.
@@ -35,16 +32,17 @@ Usage
 
     Clone the repository or download the script.
 
-        Using Git:
+        Using Git (Recommended):
 
-        git clone <your-repo-url>
-        cd <your-repo-name>
+        git clone [https://github.com/g0d1k/ollama_webui_install.git](https://github.com/g0d1k/ollama_webui_install.git)
+        cd ollama_webui_install
 
         Using curl:
 
-        curl -O https://<raw-github-url-to-your-script>/install_ollama_webui_v2.sh
+        curl -O [https://raw.githubusercontent.com/g0d1k/ollama_webui_install/main/install_ollama_webui_v2.sh](https://raw.githubusercontent.com/g0d1k/ollama_webui_install/main/install_ollama_webui_v2.sh)
 
     Make the script executable:
+    Assuming the script file is named install_ollama_webui_v2.sh in your repository.
 
     chmod +x install_ollama_webui_v2.sh
 
